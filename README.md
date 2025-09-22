@@ -134,16 +134,18 @@ Keep it simple, consistent, and clear.
 [Code Definitions](#code_definitions)
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| variable | A named container used to store a value that may change. | `var x = 5;` |  |  |
-| constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-| Data Type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-| string      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
-|integer      | Whole number values. | `int age = 16;` |  |  |
-| double      | Number values with decimals. | `double age = 16.2;` |  |  |
-| Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-| List      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+| variable | A named container used to store a value that may change. | `var x = 5;` |  | showcase.dart double width: 100 |
+| constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |  | showcase.dart padding: const EdgeInsets.all(4.0), |
+| Data Type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'TSA Portfolio',  |
+| string      | A sequence of characters used to represent words or text. | `"Hello World"` |  | alt_design_screen  "text": "This is Luna, a cheerful retriever who loves playing fetch.",  |
+|integer      | Whole number values. | `int age = 16;` |  | background.dart  const SizedBox(height: 8),  |
+| double      | Number values with decimals. | `double age = 16.2;` |  | background.dart padding: const EdgeInsets.only(left: 100.0),  |
+| Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |  | main.dart  debugShowCheckedModeBanner: false,  |
+| List      | A collection of values in a specific order. | `List<String> names = [];` |  |InfoCard.dart  |
 | Null      | A special value that means “nothing.” | `String? name = null;` |  |  |
-| Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+| Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  | main.dart void main() => runApp(MyPortfolioApp());  |
 | Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
 | Return      | The result a function gives back. | `return total;` |  |  |
 | Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
